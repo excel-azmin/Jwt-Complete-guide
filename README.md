@@ -78,3 +78,13 @@ npm install prisma --save-dev
 npx prisma
 npx prisma init
 ```
+## Migrage DB
+`npx prisma migrate dev --name init`
+## Push into DB
+```
+npx prisma db push
+```
+## View Database 
+```
+npx prisma studio
+```

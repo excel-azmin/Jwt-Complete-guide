@@ -88,3 +88,13 @@ npx prisma db push
 ```
 npx prisma studio
 ```
+**Generate Module**
+```
+npx nest g module auth
+npx nest g module prisma
+```
+**Generate Service**
+```
+npx nest g service auth
+npx nest g service prisma
+```

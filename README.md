@@ -98,3 +98,28 @@ npx nest g module prisma
 npx nest g service auth
 npx nest g service prisma
 ```
+**Generate Controller**
+```
+npx nest g controller auth
+```
+**Add Class Validator**
+```
+npm i --save class-validator class-transformer
+```
+**Encrypt Password**
+```
+npm i bcrypt
+npm i -D @types/bcrypt
+```
+
+**Authentication requirements**
+```
+npm install --save @nestjs/passport passport passport-local
+npm install --save-dev @types/passport-local
+```
+
+**JWT functionality**
+```
+npm install --save @nestjs/jwt passport-jwt
+npm install --save-dev @types/passport-jwt
+```
